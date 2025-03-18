@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(87, 52, 8);
+    color: gold;
+    font-family: monospace;
+}
+
+.game-container {
+
+    width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid gold;
+}
+
+.stats {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    background-color: #333;
+    color: gold;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+}
+#TB{
+    background-color: red;
+    
+}

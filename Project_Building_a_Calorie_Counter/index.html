@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" id="change">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calorie Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calorie Counter</h1>
+      <form id="myForm">
+        <label for="budget">Budget</label>
+        <input type="text" id="budget" placeholder="Daily calorie budget" />
+        <div id="1">
+          <label for="breakfast">Breakfast</label>
+          <input type="text" id="breakfast" disabled />
+        </div>
+        <div id="2">
+          <label for="lunch">Lunch</label>
+          <input type="text" id="lunch" disabled />
+        </div>
+        <div id="3">
+          <label for="dinner">Dinner</label>
+          <input type="text" id="dinner" disabled />
+        </div>
+        <div id="4">
+          <label for="snacks">Snacks</label>
+          <input type="text" id="snacks" disabled />
+        </div>
+        <div id="5">
+          <label for="exercise">Exercise</label>
+          <input type="text" id="exercise" disabled />
+        </div>
+        <div class="add-entry">
+          <label for="entry">Add food or exercise:</label>
+          <select id="entry">
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+            <option value="snacks">Snacks</option>
+            <option value="exercise">Exercise</option>
+          </select>
+          <button type="button" class="add-btn" id="chon">Add Entry</button>
+        </div>
+
+        <div class="buttons">
+          <button type="button" class="calculate-btn">
+            Calculate Remaining Calories
+          </button>
+          <button type="button" class="clear-btn">Clear</button>
+        </div>
+      </form>
+    </div>
+    <div id="notificationbox"></div>
+  </body>
+</html>
